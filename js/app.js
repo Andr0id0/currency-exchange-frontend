@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    const host = "http://host.docker.internal:8080";
+    const host = "http://176.114.88.127:8080/currency-exchange";
     // Fetch the list of currencies and populate the select element
     function requestCurrencies() {
         $.ajax({
